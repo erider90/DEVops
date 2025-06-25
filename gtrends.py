@@ -43,3 +43,11 @@ pytrend.build_payload(kw_list=['pizza', 'bagel'], timeframe=['2022-09-04 2022-09
 # Multirange Interest Over Time
 multirange_interest_over_time_df = pytrend.multirange_interest_over_time()
 print(multirange_interest_over_time_df.head())
+
+
+# from GoogleNews import GoogleNews
+
+# googlenews = GoogleNews(lang='en', region='US')
+# googlenews.search('technology')  # Search for technology news
+# result = googlenews.result()
+# print(result)
