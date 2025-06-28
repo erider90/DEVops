@@ -32,11 +32,3 @@ if __name__ == "__main__":
         print(f"   Published: {news['published date']}")
         print(f"   Description: {news['description']}\n")
 
-    # Get news for a specific keyword in Spanish for Spain
-    print("\n--- 'Climate Change' News Headlines (Spain, Spanish - using GNews) ---")
-    climate_news = get_news_with_gnews(keyword="cambio climático", lang='es', country='ES', max_results=5)
-    for i, news in enumerate(climate_news):
-        print(f"{i+1}. {news['title']}")
-        print(f"   Link: {news['url']}")
-        print(f"   Published: {news['published date']}")
-        print(f"   Description: {news['description']}\n")
